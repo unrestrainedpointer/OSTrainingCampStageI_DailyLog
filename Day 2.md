@@ -66,4 +66,10 @@ Using websites:
         }
      ```
      We do not need too many variable names with shadowing.
-- The stack, the heep, and pointers
+- The stack, the heep, and pointers: the pointer in rust is called a reference.
+     - If you want to define a reference, you can give a name and just put an ampersand in front of it like this: `let my_reference = &my_variable` and you can have a reference of a reference and as many as you want.
+     - & and * are opposite symbols which means respectively references and the value that my referencec is pointing , so using * , you will go back to values.
+     - The synmbol * works like this: `my_variale == *my_reference`.
+     - Besides, && is opposite to **.
+- More advanced printing: Something more about printing.
+     - 
