@@ -23,6 +23,6 @@ Please visit [Day 1](https://github.com/unrestrainedpointer/OSTrainingCampStageI
 ### Study Rust
   Today, due to the forearm allergy, I went to hospital during the day, but was delayed because the health code turned yellow. Therefore, I did not start my task until the night. By listening to the Easy Rust on youtube, I mastered the definition of code blocks, debug printing and understand the immutability of variables in rust. To my surprise, it says 'There is no single reason that bindings are immutable by default.' when I search for the [reason](https://stackoverflow.com/questions/29631590/why-is-immutability-enforced-in-rust-unless-otherwise-specified-with-mut) on the stackoverflow.
   
- Please visit [Day 2]() for details.
+ Please visit [Day 2](https://github.com/unrestrainedpointer/OSTrainingCampStageI_DailyLog/blob/main/Day%202.md) for details.
   
   
