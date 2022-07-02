@@ -131,4 +131,15 @@ Using websites:
                 let num_ref=&mut my_number;
             }
       ```
-    - This code gets an error: cannot borrow 'my_number' as mutable, as it is not declared as mutable. So it has to be decared as `let mut my_number=8;`.
+    - This code gets an error: cannot borrow 'my_number' as mutable, as it is not declared as mutable. So it has to be decared as `let mut my_number=8;`. Thus, we can change my_number by using the reference as `*num_ref +=10;` in which * is called dereferencing.
+    - There is a rule about mutable reference: If you have a mutable reference, you can only have one. Also, you cannot have an immuatable reference and a mutable reference together. This is because mutable references can change the data. You could get problems if you change the data when other references are reading it.
+    - About shadowing and reference:
+    - ```
+         fn main() {
+         let country = String::from("Austria");
+         let country_ref = &country;
+            let country = 8;
+            println!("{}, {}", country_ref, country);
+         }
+      ```
+      This code will print "Austria" and 8, because we said that shadowing does not kill the variable in the front. So we can use its referencec to get it's value.
