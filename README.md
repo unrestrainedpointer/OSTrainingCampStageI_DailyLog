@@ -25,4 +25,9 @@ Please visit [Day 1](https://github.com/unrestrainedpointer/OSTrainingCampStageI
   
  Please visit [Day 2](https://github.com/unrestrainedpointer/OSTrainingCampStageI_DailyLog/blob/main/Day%202.md) for details.
   
-  
+ ## Day 3
+ ### Study Rust
+ 1. Plan: 
+    - Learn about Arrays, Vecs, Tuples, Control flow, Struct, Enums before noon.
+    - Learn about Loops, Implementing structs and enums, More about, destructuring, Generics in night.
+ 2. Log: To be updated.
