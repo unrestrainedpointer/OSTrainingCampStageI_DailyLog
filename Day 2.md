@@ -30,8 +30,40 @@ Using websites:
     - ```
       let my_number = 8;
       println!("My number is: {}", my_number);
-      my_nunmber = 10;
-      println!("My number is: {}", my_number);
+      my_number = 10;
+      println!("Now my number is: {}", my_number);
       ```
       The second print will  get an error that cannot assign twice to immutable variable 'my_number'.
      - It is immutable default in rust and you can use `let mut my_number = 8` to make my_number mutable.
+     - However, you can still not write `my_number = "Hello world";`. Otherwise, you will attain an error showing mismatched types.
+     - To debug this error, you can write `let my_number = "Now I am a string";`. And this is called shadowing and will be illustrated in the next point. Here we just need know that when you use let again, it has nothing to do with mutability and you are creating something totally and the only thing that makes it looks like it's mutable is that the name is same but it is not the same variable at all.
+- Shadowing: It is similar with the mutability, but they are different. For the last example, the second 'let' does not kill the first 'my_number'.
+     - Consider about the code below:
+     - ```
+       let my_number = 8;
+       println!("{}", my_number);
+       {
+            let my_number=9.2;//Here we are shadowing the first my_number
+            println!("{}", my_number);
+       }//But the second my_number only lives up to here. When we print it out, it is going to print the first my_number.
+       println!("{}", my_number);
+     ```
+     - Here we can learn that the second my_number does not kill the first one. When it dead, we will get the first one.
+     - ```
+        fn times_two(number: i32)->i32{//here '->' means that we need to return a variable whose type is 'i32'.
+            number*2 //Do not forget that there is no semicolon here.
+        }
+        
+        fn main(){
+            let final_number={
+                let y=18;
+                let x=9;
+                let x=times_two(x);
+                let x=x+y;//Shadow with new x: 28
+                x
+            };
+            println!("The number is now: {}", final_number)
+        }
+     ```
+     We do not need too many variable names with shadowing.
+- The stack, the heep, and pointers
