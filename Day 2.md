@@ -89,3 +89,46 @@ Using websites:
           - `let together=format!("I am {} and I come from {} but I live in{}", my_name, my_country, my_home);`
           - `let my_string: String = "Try to make this a String".into();`, if you remove the declare of type String, the compiler will report an error because it does not know which type you want to conver to from &str.
 - const and static: const is used for some fixed values, and variables declared in static has their settled position in memories. They are all alive through the whole program.
+- More on reference: 
+    - ```
+           let country=String::from("Austria");
+          
+           let ref_one = &country;
+           let ref_two = &country;
+          
+           println!("{}, {}, {}", country, ref_one, ref_two);
+        ```
+    - It works well, but when it comes to the program below, something funny happens.
+    - ```
+            fn return_str() -> &'static str{
+                let country=String::from("Austria");
+                let country_ref=&country;
+                country_ref
+            }
+            
+            fn main(){
+                let country_name=return_str();
+            }
+        ```
+         The codes above has an error that cannot return value referencing local variable 'country'. Thus, how can I get the reference? 
+    - We can return a variable whose type is String, and then get its reference, due to the fact that when the program comes out of return_str above, the local variable country has been dead and the relating spaces in memory will be cleaned.
+    - ```
+            fn return_str() -> String{
+                let country=String::from("Austria");
+                country
+            }
+            
+            fn main(){
+                let country_name=return_str();
+                println!("{}". country_name);
+            }
+        ```
+- Mutable reference:
+    - Consider the codes below:
+    - ```
+            fn main(){;
+                let my_number=8;
+                let num_ref=&mut my_number;
+            }
+      ```
+    - This code gets an error: cannot borrow 'my_number' as mutable, as it is not declared as mutable. So it has to be decared as `let mut my_number=8;`.
