@@ -72,4 +72,6 @@ Using websites:
      - The synmbol * works like this: `my_variale == *my_reference`.
      - Besides, && is opposite to **.
 - More advanced printing: Something more about printing.
-     - 
+     - You need type double slash '\' to print slash, and another way is list this: `println!(r#"He said, "You can find the file at c:\files\my_documents\file.txt" Then I found the file."#)`. Usind 'r' and two pound signs to show the raw string is started and finished.
+     - How to print #? You can use ## instead of #, then # between the two ## will be considered as a part of the string. And so on, if you want to print ###, you can start and end the string with ####.
+     - Another letter we can put in front of strings is 'b' expect 'r', which can convert a string into bytes.
