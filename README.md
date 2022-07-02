@@ -17,6 +17,8 @@ Using websites:
 
 Today, I have learned about comments, some primitive types, type inference and floats and so on. Because I am the beginner of rust, I have to study from scratch. There is nothing else worth logging because of the simplification of today's content.
 
+Please visit [Day 1]() for details.
+
 ## Day 2
 ### Study Rust
 Using websites:
