@@ -15,10 +15,10 @@ Using websites:
 1. https://www.youtube.com/watch?v=yYlPHRl2geQ&list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk&index=5
 2. https://kumakichi.github.io/easy_rust_chs/Chapter_9.html
 
-Today, I have learned about comments, some primitive types, type inference and floats and so on. Because I am the beginner of rust, I have to study from scratch. There is nothing else worth logging because of the simplification of today's content.
+  Today, I have learned about comments, some primitive types, type inference and floats and so on. Because I am the beginner of rust, I have to study from scratch. There is nothing else worth logging because of the simplification of today's content.
 
 Please visit [Day 1](https://github.com/unrestrainedpointer/OSTrainingCampStageI_DailyLog/blob/main/Day%201.md/) for details.
 
 ## Day 2
 ### Study Rust
-Today, due to the forearm allergy, I went to hospital during the day, but was delayed because the health code turned yellow. Therefore, I did not start my task until the night. By listening to the Easy Rust on youtube, I mastered the definition of code blocks, debug printing and understand the immutability of variables in rust. To my surprise, it says 'There is no single reason that bindings are immutable by default.' when I search for the [reason](https://stackoverflow.com/questions/29631590/why-is-immutability-enforced-in-rust-unless-otherwise-specified-with-mut) on the stackoverflow.
+  Today, due to the forearm allergy, I went to hospital during the day, but was delayed because the health code turned yellow. Therefore, I did not start my task until the night. By listening to the Easy Rust on youtube, I mastered the definition of code blocks, debug printing and understand the immutability of variables in rust. To my surprise, it says 'There is no single reason that bindings are immutable by default.' when I search for the [reason](https://stackoverflow.com/questions/29631590/why-is-immutability-enforced-in-rust-unless-otherwise-specified-with-mut) on the stackoverflow.
