@@ -30,5 +30,5 @@ Please visit [Day 1](https://github.com/unrestrainedpointer/OSTrainingCampStageI
  1. Plan: 
     - Learn about Arrays, Vecs, Tuples, Control flow, Struct, Enums before noon.
     - Learn about Loops, Implementing structs and enums, More about, destructuring, Generics in night.
- 2. Log: To be updated.
+ 2. Log: Today, I studied Rust and install Rustlings to do some exerxises on the [small exercises](https://github.com/rust-lang/rustlings).
  3. Please visit [Day 3]() for details.
