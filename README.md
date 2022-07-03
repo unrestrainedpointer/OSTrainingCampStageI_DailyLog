@@ -31,3 +31,4 @@ Please visit [Day 1](https://github.com/unrestrainedpointer/OSTrainingCampStageI
     - Learn about Arrays, Vecs, Tuples, Control flow, Struct, Enums before noon.
     - Learn about Loops, Implementing structs and enums, More about, destructuring, Generics in night.
  2. Log: To be updated.
+ 3. Please visit [Day 3]() for details.
