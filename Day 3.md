@@ -41,3 +41,11 @@
 6. variables6.rs
    ![image](https://user-images.githubusercontent.com/102142490/177047485-5ba984e0-3ed6-4bef-82e4-d9fa189bb2d6.png)
 
+##### Functions
+1. functions1.rs
+   ![image](https://user-images.githubusercontent.com/102142490/177047776-1ec55f45-3419-4188-896d-4a783975be06.png)
+2. functions2.rs
+   ![image](https://user-images.githubusercontent.com/102142490/177047860-340a3d1c-4711-405b-9c7d-e8626648584d.png)
+3. functions3.rs
+   ![image](https://user-images.githubusercontent.com/102142490/177047923-be0bc6c7-db6d-4779-ad8b-d8278245d3ad.png)
+
