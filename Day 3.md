@@ -24,5 +24,4 @@
 3. `let vec_of_ten=vec![1,2,3,4,5,6,7,8,9,10];`
    `let three_to_five=&vec_of_ten[2..5];`
    We can use references to split the vector.
-5. We can use `my_vec.capacity()` to get the capacity of a vector.
-
+4. We can use `my_vec.capacity()` to get the capacity of a vector.
