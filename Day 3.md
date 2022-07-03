@@ -48,4 +48,15 @@
    ![image](https://user-images.githubusercontent.com/102142490/177047860-340a3d1c-4711-405b-9c7d-e8626648584d.png)
 3. functions3.rs
    ![image](https://user-images.githubusercontent.com/102142490/177047923-be0bc6c7-db6d-4779-ad8b-d8278245d3ad.png)
+4. functions4.rs
+   ![image](https://user-images.githubusercontent.com/102142490/177048082-604ce27b-8a3f-4724-b685-3bad5deb422c.png)
+5. functions5.rs
+   ![image](https://user-images.githubusercontent.com/102142490/177048129-316c2e4f-b97a-4c2d-babc-c18a88e29dc4.png).
+
+##### If
+1. if1.rs
+   ![image](https://user-images.githubusercontent.com/102142490/177048239-7f3e9569-003b-4909-9b60-8ffe5cce9657.png)
+2. if2.rs
+   ![image](https://user-images.githubusercontent.com/102142490/177048346-0a0b72c9-f57b-4193-ba98-011210d31a12.png)
+
 
