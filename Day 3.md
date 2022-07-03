@@ -25,3 +25,19 @@
    `let three_to_five=&vec_of_ten[2..5];`
    We can use references to split the vector.
 4. We can use `my_vec.capacity()` to get the capacity of a vector.
+
+#### Exercises
+##### Variables:
+1. variables1.rs
+   ![image](https://user-images.githubusercontent.com/102142490/177047143-6db11071-9564-4846-b4c9-f7a43d1c41c3.png)
+2. variables2.rs
+   ![image](https://user-images.githubusercontent.com/102142490/177047351-83e3cf34-46d1-436a-ba8a-e506891edadc.png)
+3. variables3.rs
+   ![image](https://user-images.githubusercontent.com/102142490/177047301-17d5203c-e208-45eb-9229-436f1419dae5.png)
+4. variables4.rs
+   ![image](https://user-images.githubusercontent.com/102142490/177047393-3aa2051c-7acf-4d14-820e-54fc2c0f4441.png)
+5. variables5.rs
+   ![image](https://user-images.githubusercontent.com/102142490/177047440-eaa8bfef-516a-4a31-9266-b17d3125cd77.png)
+6. variables6.rs
+   ![image](https://user-images.githubusercontent.com/102142490/177047485-5ba984e0-3ed6-4bef-82e4-d9fa189bb2d6.png)
+
