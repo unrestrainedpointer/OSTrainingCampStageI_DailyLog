@@ -25,4 +25,4 @@
    `let three_to_five=&vec_of_ten[2..5];`
    We can use references to split the vector.
 5. We can use `my_vec.capacity()` to get the capacity of a vector.
-6. 
+
